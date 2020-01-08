@@ -1,3 +1,15 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+puts "Ready to play Tic Tac Toe?!"
+puts "What kind of game do you want to play?"
+puts "0, 1 or 2 players?"
+puts " 
+  0 - Computer VS Computer
+  1 - You VS Computer
+  2 - You VS Your friend "
+input = gets.strip
+
+if input == "1"
+  puts "Would you like to go first?"
+end 
