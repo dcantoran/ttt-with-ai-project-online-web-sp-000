@@ -30,7 +30,7 @@ def start
 
 end 
 
-until gets.strip == "n" start
+until gets.strip = "n" start
 
 
 
