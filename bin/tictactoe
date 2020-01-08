@@ -11,5 +11,5 @@ puts "
 input = gets.strip
 
 if input == "1"
-  puts "Would you like to go first?"
+  puts "Would you like to go first? [ y/n ]"
 end 
