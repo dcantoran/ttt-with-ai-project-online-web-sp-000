@@ -25,7 +25,7 @@ def start
   puts "Do you want to begin a new game?"
 end 
   
-  start until gets.strip == "n" || "N"
+  start until gets.strip == "n" || until gets.strip == "N"
 
 
 
