@@ -14,7 +14,7 @@ input = gets.strip
 if input == "1"
   puts "Would you like to go first? [ y/n ]"
   
-  if gets.strip == "y" || gets.strip == "Y"
+  if gets.strip == "y" || gets.st2 "Y"
     Game.new(Players::Human.new("X"), Players::Computer.new("O"), Board.new).play
   end 
   
