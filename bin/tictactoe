@@ -27,10 +27,10 @@ def start
   end 
 
   puts "Do you want to begin a new game?"
-
+  start until gets.strip == "n"
 end 
 
-start until gets.strip == "n"
+
 
 
 
