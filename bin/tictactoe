@@ -20,6 +20,9 @@ if input == "1"
   
 end 
 
+if input == "2"
+  puts 
+
 
 
 
