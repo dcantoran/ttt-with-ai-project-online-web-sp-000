@@ -13,5 +13,8 @@ input = gets.strip
 
 if input == "1"
   puts "Would you like to go first? [ y/n ]"
-  if gets.strip == "y"
+  
+  if gets.strip == "y" || gets.strip == "Y"
+    
+  end 
 end 
