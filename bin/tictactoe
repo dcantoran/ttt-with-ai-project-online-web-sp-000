@@ -5,10 +5,6 @@ def start
   puts "Welcome to Tic Tac Toe!"
   puts "What kind of game do you want to play?"
   puts "0, 1 or 2 players?"
-  puts " 
-    0 - Computer VS Computer
-    1 - You VS Computer
-    2 - You VS Your friend "
   
   input = gets.strip
 
