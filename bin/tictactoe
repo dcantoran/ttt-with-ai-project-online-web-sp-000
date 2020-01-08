@@ -15,6 +15,6 @@ if input == "1"
   puts "Would you like to go first? [ y/n ]"
   
   if gets.strip == "y" || gets.strip == "Y"
-    Game.new()
+    Game.new(player_1. player_2, board)
   end 
 end 
